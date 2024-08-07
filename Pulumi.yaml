@@ -1,0 +1,6 @@
+name: upstash-redis
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+description: Upstash Redis database in a team

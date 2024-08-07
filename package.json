@@ -1,0 +1,18 @@
+{
+  "name": "upstash-redis",
+  "description": "Upstash Redis database in a team",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "@pulumi/pulumi": "*",
+    "@upstash/pulumi": "*",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "prettier": "^3.3.3"
+  }
+}
