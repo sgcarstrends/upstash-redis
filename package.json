@@ -1,5 +1,5 @@
 {
-  "name": "upstash-redis",
+  "name": "@sgcarstrends/upstash-redis",
   "description": "Upstash Redis database in a team",
   "main": "index.ts",
   "scripts": {
