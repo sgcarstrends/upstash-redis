@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@pulumi/pulumi':
-        specifier: '*'
-        version: 3.128.0
+        specifier: ^3.130.0
+        version: 3.130.0
       '@upstash/pulumi':
-        specifier: '*'
-        version: 0.2.0
+        specifier: ^0.3.14
+        version: 0.3.14
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -214,8 +214,8 @@ packages:
   '@protobufjs/utf8@1.1.0':
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
 
-  '@pulumi/pulumi@3.128.0':
-    resolution: {integrity: sha512-Xqe5uYp1RpDihK3VbdBFR4q1h+ICg/2Xgg1d7aYWmPqBCIUG4jWddLS0REQO60EsgKBNarXhLeQSmaWXLgiq9w==}
+  '@pulumi/pulumi@3.130.0':
+    resolution: {integrity: sha512-WsvXRfEdCz+AcuzP41ABgN5Ye3qLt4v/EVZXUT7sMHU6G8uazaLtS92tpvNp+pgeRZf9kbotCEoABXKg+d+1oQ==}
     engines: {node: '>=18'}
     peerDependencies:
       ts-node: '>= 7.0.1 < 12'
@@ -296,8 +296,8 @@ packages:
   '@types/tmp@0.2.6':
     resolution: {integrity: sha512-chhaNf2oKHlRkDGt+tiKE2Z5aJ6qalm7Z9rlLdBwmOiAAf09YQvvoLXjWK4HWPF1xU/fqvMgfNfpVoBscA/tKA==}
 
-  '@upstash/pulumi@0.2.0':
-    resolution: {integrity: sha512-wxc8UGP9+4ccFwQes6FWvo4/Cia8LeLl8q1VXUoeuGHL67A1oQQmIIQ5HSFtGzOxh6t6GPlg3+kummsCReJ4Qg==}
+  '@upstash/pulumi@0.3.14':
+    resolution: {integrity: sha512-tM0muzOEGmOBVu1J8rY86ThaV4iuZE+tfB+hc84dHPHP9jkSgUcDxBIVRRUs22/5O6Tt9R0hcigJBSGNWvIWfA==}
 
   abbrev@2.0.0:
     resolution: {integrity: sha512-6/mh1E2u2YgEsCHdY0Yx5oW+61gZU+1vXaoiHHrpKeuRNNgFvS+/jrwHiQhB5apAf5oB7UB7E19ol2R2LKH8hQ==}
@@ -1359,7 +1359,7 @@ snapshots:
 
   '@protobufjs/utf8@1.1.0': {}
 
-  '@pulumi/pulumi@3.128.0':
+  '@pulumi/pulumi@3.130.0':
     dependencies:
       '@grpc/grpc-js': 1.11.1
       '@logdna/tail-file': 2.2.0
@@ -1471,9 +1471,9 @@ snapshots:
 
   '@types/tmp@0.2.6': {}
 
-  '@upstash/pulumi@0.2.0':
+  '@upstash/pulumi@0.3.14':
     dependencies:
-      '@pulumi/pulumi': 3.128.0
+      '@pulumi/pulumi': 3.130.0
     transitivePeerDependencies:
       - bluebird
       - supports-color

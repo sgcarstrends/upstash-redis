@@ -8,8 +8,8 @@
   },
   "author": "",
   "dependencies": {
-    "@pulumi/pulumi": "*",
-    "@upstash/pulumi": "*",
+    "@pulumi/pulumi": "^3.130.0",
+    "@upstash/pulumi": "^0.3.14",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
