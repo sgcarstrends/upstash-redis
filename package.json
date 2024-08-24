@@ -2,6 +2,7 @@
   "name": "@sgcarstrends/upstash-redis",
   "description": "Upstash Redis database in a team",
   "main": "index.ts",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
