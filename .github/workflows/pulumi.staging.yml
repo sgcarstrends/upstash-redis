@@ -2,16 +2,16 @@ name: Pulumi Deploy (Staging)
 on:
   push:
     branches:
-      - main
+      - "main"
   pull_request:
     branches:
-      - main
+      - "main"
 
 concurrency:
   group: merge-${{ github.ref }}
 
 jobs:
-  deploy:
+  Deploy:
     runs-on: ubuntu-latest
     environment: Staging
     env:
